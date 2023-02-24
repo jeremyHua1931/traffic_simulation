@@ -1,0 +1,11 @@
+from enum import Enum
+
+class RideState(str, Enum):
+    REQUESTED = "REQUESTED"
+    PENDING = "PENDING"
+    PICKUP = "PICKUP"
+    ON_ROAD = "ON_ROAD"
+    END = "END"
+    CANCELED = "CANCELED"
+    NOT_ACCOMPLISHED = "NOT ACCOMPLISHED"
+    SIMULATION_ERROR = "SIMULATION ERROR"

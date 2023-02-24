@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat May  1 22:26:54 2021 by Eclipse SUMO sumo Version 1.9.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml" />
+        <route-files value="osm.passenger.trips.xml" />
+        <additional-files value="osm.poly.xml" />
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true" />
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18" />
+        <device.rerouting.adaptation-interval value="10" />
+    </routing>
+
+    <report>
+        <verbose value="true" />
+        <duration-log.statistics value="true" />
+        <no-step-log value="true" />
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml" />
+
+    </gui_only>
+
+
+
+    <!-- add output option -->
+    <output>
+        <netstate-dump value="netstate_outfile.xml" />
+        <vehroute-output value="vehicleroute_outfile.xml" />
+        <fcd-output value="fcd_outfile.xml" />
+        <lanechange-output value="lanechange_outfile.xml" />
+        <queue-output value="queue_outfile_outfile.xml" />
+        <statistic-output value="stats_outfile_outfile.xml" />
+    </output>
+
+</configuration>

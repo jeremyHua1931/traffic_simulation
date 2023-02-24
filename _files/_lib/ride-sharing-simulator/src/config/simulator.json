@@ -1,0 +1,12 @@
+{
+    "timer_remove_idle_driver": 500,
+    "type": "normal",
+    "checkpoints": {
+        "simulation_duration": 5000,
+        "time_customer_generation": 80,
+        "time_driver_generation": 80,
+        "time_move_driver": 120,
+        "time_dispatch_rides": 140,
+        "time_update_surge": 15
+    }
+}

@@ -1,0 +1,25 @@
+<configuration>
+	
+	<input>
+        <net-file value="roundabout.net.xml"/>
+		<route-files value="roundabout.rou.xml"/>
+    </input>
+	
+	<processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <duration-log.disable value="true"/>
+        <no-step-log value="true"/>
+    </report>
+	
+	<time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+	
+	<gui-settings-file value="gui-settings.cfg"/>
+	
+</configuration>

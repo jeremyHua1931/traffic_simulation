@@ -1,0 +1,13 @@
+<configuration>
+    <input>
+        <net-file value="san-francisco.net.xml"/>
+        <additional-files value="add.add.xml"/>
+        <time-to-teleport value="0"/>
+    </input>
+    <time>
+        <step-length value="1"/>
+    </time>
+    <gui_only>
+        <gui-settings-file value="gui-settings.cfg"/>
+    </gui_only>
+</configuration>

@@ -1,0 +1,55 @@
+<!-- vehicle flow definition -->
+<routes>
+<!--   <vType id="car" accel="0.8" decel="4.5" sigma="0" length="5" minGap="2" maxSpeed="70"/>
+   
+   <route id="from0" edges="1i 2o"/>
+   <flow id="from0" type="car" route="from0" begin="1" end="502" vehsPerHour ="100" />
+   
+   <route id="from1" edges="1i 3o"/>
+   <flow id="from1" type="car" route="from1" begin="2" end="503" vehsPerHour ="100" />
+   -->
+
+<vehicle id="1.0" depart="0.00" departLane="free" color="1,1,0">
+        <route edges="4 5 -3"/>
+</vehicle>
+
+<vehicle id="2.0" depart="0.00" departLane="free" color="0,1,1">
+        <route edges="4 5 6 7 -1"/>
+</vehicle>
+
+<vehicle id="3.0" depart="0.00" departLane="free" color="1,0,1">
+        <route edges="4 5 6 -2"/>
+</vehicle>
+
+<vehicle id="4.0" depart="0.00" departLane="free" color="1,0,0">
+        <route edges="2 7 8 -4"/>
+</vehicle>
+
+<vehicle id="5.0" depart="0.00" departLane="free" color="0,1,0">
+        <route edges="3 6 7 8 -4"/>
+</vehicle>
+
+<vehicle id="6.0" depart="0.00" departLane="free" color="0,0,1">
+        <route edges="1 8 5 -3"/>
+</vehicle>
+
+
+</routes>
+
+
+<!-- individual car definition -->
+<!--
+<routes>
+   <vType id="type1" accel="0.8" decel="4.5" sigma="0.5" length="20" maxSpeed="70"/>
+   <vType id="type2" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
+   <route id="route0" color="1,1,0" edges="1i 2o"/>
+   <route id="route1" color="1,1,0" edges="1i 3o"/>
+   <vehicle id="0" type="type1" route="route0" depart="0" color="1,0,0"/>
+   <vehicle id="1" type="type1" route="route0" depart="2" color="0,1,0"/>
+   <vehicle id="2" type="type2" route="route1" depart="4" color="1,0,0"/>
+   <vehicle id="3" type="type2" route="route1" depart="" color="0,1,0"/>
+</routes>
+-->
+
+
+

@@ -1,0 +1,9 @@
+h3
+InquirerPy
+numpy
+numpyencoder
+pydantic
+sumolib
+traci
+xmltodict
+pydantic[dotenv]
