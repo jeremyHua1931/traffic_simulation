@@ -10,6 +10,10 @@
 ├── _template(部分默认配置文件和语法约定)
 ├── _test_OK(已测试通过的sumo项目以及traci_with_python项目)
 ├── official_tutorial(官方教程代码)
+├── doc 
+│   ├── 1-Lab Platform_ SUMO.pdf(sumo基本功能介绍)
+│   ├── 2-Output_SUMO.pdf(sumo常见输出)
+│   └── 3-Reference.pdf(现有的关于sumo仿真的blogs和video)
 └── readme.md
 ```
 
